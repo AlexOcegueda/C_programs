@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <limits.h>
 
+// Structure to store pairs of integers
 struct Pair {
     int num1;
     int num2;
 };
 
+// Enumeration of mathematical operations
 enum Operations {
     ADD,
     SUBTRACT,
@@ -34,8 +36,8 @@ int divide(int num1, int num2) {
 }
 
 /**
- * Takes in two ints from user and stores into Pair to be used 
- * in operations
+ * Takes in two ints from user and 
+ * stores into Pair to be used in operations
 */
 struct Pair getIntegers(){
     struct Pair result;
